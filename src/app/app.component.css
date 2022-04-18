@@ -1,0 +1,30 @@
+strong {
+ font-size: larger;
+  padding-top: 20px;
+}
+mat-card-title {
+  color: #c2185b;
+}
+mat-card-header {
+  background-color: dimgrey;
+  padding: 10px;
+
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+button {
+  border: 1px solid dimgrey;
+}
+
+button:hover {
+  background-color: dimgrey;
+  border: 1px solid #424242;
+}
+
+mat-card {
+  border-left: 2px solid dimgrey;
+  border-right: 2px solid dimgrey;
+  border-top: 1px solid dimgrey;
+  border-bottom: 1px solid dimgrey;
+}
