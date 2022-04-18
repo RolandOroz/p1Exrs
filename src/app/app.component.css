@@ -2,29 +2,47 @@ strong {
  font-size: larger;
   padding-top: 20px;
 }
+
 mat-card-title {
   color: #c2185b;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
+
 mat-card-header {
   background-color: dimgrey;
-  padding: 10px;
-
   margin-bottom: 20px;
   border-radius: 5px;
 }
 
+mat-card-subtitle {
+  margin-top: 10px;
+}
+
 button {
   border: 1px solid dimgrey;
+  color: darkorange;
 }
 
 button:hover {
   background-color: dimgrey;
   border: 1px solid #424242;
+  color: #c2185b;
 }
 
 mat-card {
   border-left: 2px solid dimgrey;
   border-right: 2px solid dimgrey;
-  border-top: 1px solid dimgrey;
-  border-bottom: 1px solid dimgrey;
+  border-top: 1px solid #c2185b;
+  border-bottom: 1px solid #c2185b;
+}
+
+mat-card-actions {
+  padding-left: 10px;
+  height: 45px;
+}
+
+mat-card-content {
+  padding-left: 10px;
+  text-align: justify;
 }
